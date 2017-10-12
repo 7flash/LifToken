@@ -9,6 +9,10 @@ This repository also has all the contracts related with the Token Generation Eve
 [![Build Status](https://travis-ci.org/windingtree/LifToken.svg?branch=master)](https://travis-ci.org/windingtree/LifToken)
 [![Coverage Status](https://coveralls.io/repos/github/windingtree/LifToken/badge.svg?branch=master)](https://coveralls.io/github/windingtree/LifToken?branch=master&v=2.0)
 
+## Bug Bounty Program
+
+We are running a Bug Bounty Program for the Líf Token and related [smart contracts](https://github.com/WindingTree/LifToken/#contracts). Please read all the details in [our blog announcement](https://blog.windingtree.com/lif-tge-bug-bounty-program-e0bc3b3ef86) before submitting your issues and fixes. Thanks for participating!
+
 ## Requirements
 
 Node v7.6 or higher (versions before 7.6 do not support async/await that is used in the LifToken tests)

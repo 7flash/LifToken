@@ -18,12 +18,12 @@ This repository also has all the contracts related to the Token Generation Event
   - 2 weeks duration
   - fixed price (1st week: 1 ETH = 10 lifs, 2nd week: 1 ETH = 9 lifs)
   - soft cap: USD $10M
-  - the funds in excess of the soft cap will be automatically transferred to the Market Validation Mechanisms smart contract
-- [LifMarketValidationMechanism](blob/master/contracts/LifMarketValidationMechanism.sol): The MVM is designed to provide validation to the project and by incentivizing the team and at the same time preventing them to control a large sum of money from day 1.
+  - the funds in excess of the soft cap will be automatically transferred to the Market Validation Mechanism smart contract
+- [LifMarketValidationMechanism](blob/master/contracts/LifMarketValidationMechanism.sol): The MVM is designed to provide validation to the project by incentivizing the team and at the same time preventing them to control a large sum of money from day one.
   - the MVM will hold funds from the TGE in excess of the soft cap of USD $10M (e.g. if the TGE raised $25M, the MVM would receive $15M)
   - the MVM will be making a certain amount of funds available to the foundation every month, with most of the funds released by the end of the MVM lifetime
-  - Líf holders will be able to send their tokens to the MVM in exchange for ETH at a rate that complements the distribution curve (the rate is higher at the beginning of the MVM and goes towards 0 by the end of it). The received tokens are instantly burned.
-  - The MVM will run for 24 months if the total amount raised is less than $40M, otherwise its duration period will be 48 months.
+  - Líf holders will be able to send their tokens to the MVM in exchange for ETH at a rate that complements the distribution curve (the rate is higher at the beginning of the MVM and goes towards 0 by the end of it). The received tokens are instantly burned
+  - The MVM will run for 24 months if the total amount raised is less than $40M, otherwise its duration period will be 48 months
 - [VestedPayment.sol](blob/master/contracts/VestedPayment.sol): Handles two time-locked transactions
   - the 20% extra tokens that the foundation will receive immediately after the TGE
   - the 5% extra tokens that the foundation will receive after the MVM finishes, with the same duration as the MVM: 2 or 4 years
